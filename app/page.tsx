@@ -103,7 +103,7 @@ export default function VinylFormPage() {
     <main style={{ minHeight: '100vh', backgroundColor: '#141315', backgroundImage: gridBg, backgroundSize: '32px 32px', color: AMBER, fontFamily: 'monospace', paddingBottom: 100, letterSpacing: 2.5 }}>
       <div style={{ maxWidth: 420, margin: '0 auto', padding: '72px 12px 36px 12px' }}>
         <h1 style={{ color: AMBER, fontWeight: 900, fontSize: 30, marginBottom: 34, letterSpacing: 6, textTransform: 'uppercase', borderBottom: `2.5px solid ${AMBER}`, paddingBottom: 8, display: 'inline-block' }}>
-          PLAK GİRİŞ <span style={{ color: '#FF0B2E' }}>[DESTRUCTIVE]</span>
+          PLAK GİRİŞ <span style={{ color: '#FF0B2E' }}>[DES]</span>
         </h1>
         
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 22, background: 'rgba(25, 18, 18, 0.93)', border: `2.2px solid ${AMBER}`, padding: 32, borderRadius: 14, boxShadow: '0 2px 32px #ff5f0033' }}>
